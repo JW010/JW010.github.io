@@ -1878,6 +1878,15 @@ body.tt-search-open .scrollbar-track {
 	position: relative;
 	z-index: 1;
 }
+
+.project-megnatic-wrap-prev {
+	position: absolute !important;
+	bottom: 80px;
+	left: 45%;
+	z-index: 9999;
+	cursor: pointer;
+}
+
 .page-header-inner,
 body.ph-image-on.ph-bg-image-on #page-header:not(.project-info-list-on) .page-header-inner {
 	width: 100%;
@@ -5972,7 +5981,7 @@ video.tt-pci-video {
 	height: 3px;
 }
 .lg-progress-bar .lg-progress {
-	background-color: ##4F0189;
+	background-color: #4F0189;
 	height: 3px;
 }
 

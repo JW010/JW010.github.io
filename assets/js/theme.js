@@ -79,10 +79,10 @@
 	// ONE PAGE LAYOUT FUNCTIONS
 
 	var onePageLayoutTrigger = $("a")
-			.not(".sub-menu-link")
 			.not(".tt-ol-menu-toggle-btn")
 			.not(".social-link")
 			.not("#toggle")
+			.not(".ignore-ajax")
 			.not(".logo-link"),
 		container = $("#body-inner");
 

@@ -28,8 +28,9 @@
 		/>
 
 		<!-- Favicon (http://www.favicon-generator.org/) -->
-		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-		<link rel="icon" href="favicon.ico" type="image/x-icon" />
+				<link rel="icon" href="/assets/img/logo-dark.png" type="image/x-icon" />
+
+
 
 		<!-- Google Analytics - Global site tag (gtag.js) -->
 		<!-- Paste your Google Anaytics code here. -->
@@ -194,7 +195,7 @@
 											<ul class="tt-ol-menu-list">
 												<li class="tt-ol-submenu-wrap">
 													<div class="tt-ol-submenu-trigger">
-														<a href="#" class="sub-menu-link">Projects</a>
+														<a href="#" data-target="single-project-1" class="sub-menu-link">Projects</a>
 														<div class="tt-ol-submenu-caret-wrap">
 															<div
 																class="tt-ol-submenu-caret magnetic-item"
@@ -212,6 +213,7 @@
 																	<a
 																		href="#"
 																		class="tt-ol-submenu-link sub-menu-link"
+																		data-target="single-project-1"
 																		>Fils Unique</a
 																	>
 																	<div class="tt-ol-submenu-caret-wrap">
@@ -334,8 +336,10 @@
 					-->
 					<div
 						id="page-header"
-						class="ph-full ph-cap-sm ph-image-cropped ph-image-cover-3 ph-content-parallax landing-page-header"
+						class="ph-full ph-cap-sm ph-image-cropped ph-image-cover-3 ph-content-parallax"
+						style="position: relative;"
 					>
+					<img class="landing-page-image" src="/assets/img/portfolio/portfolio-2.jpg">
 						<div class="page-header-inner tt-wrap">
 							<!-- Begin page header image 
 							============================= -->
@@ -424,7 +428,7 @@
 									<h3 class="tt-heading-subtitle text-gray">What I Can Do</h3>
 									<h2 class="tt-heading-title">Services</h2>
 									<div class="tt-btn tt-btn-link">
-										<a href="#" data-target="assets/pdf/V2JWResume copy.pdf" data-hover="View Resume"
+										<a href="assets/pdf/V2JWResume copy.pdf" class="ignore-ajax" target="_blank" data-hover="View Resume"
 											>View Resume</a
 										>
 									</div>
