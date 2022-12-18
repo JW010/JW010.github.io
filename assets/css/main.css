@@ -431,7 +431,7 @@
 
 /* HOME MUSIC */
 .play-music {
-	display: flex; position: fixed; bottom: 30px; right: 100px; z-index: 50; opacity: 0; transition: opacity 1.5s;
+	display: flex; position: fixed; bottom: 30px; right: 100px; z-index: 50; opacity: 1; transition: opacity 1.5s;
 	}
 .home-loaded .play-music {
 	opacity: 1;

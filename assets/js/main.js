@@ -245,24 +245,23 @@
 
 	// WINDOW ONLOAD
 	$(window).on("load", function () {
-
 		//Favicon Change according to dark mode
-		matcher = window.matchMedia("(prefers-color-scheme: dark)");
-		matcher.addListener(onUpdate);
-		onUpdate();
+		// let matcher = window.matchMedia("(prefers-color-scheme: dark)");
+		// matcher.addListener(onUpdate);
+		// onUpdate();
 
-		lightSchemeIcon = document.querySelector("link#light-scheme-icon");
-		darkSchemeIcon = document.querySelector("link#dark-scheme-icon");
+		// let lightSchemeIcon = document.querySelector("link#light-scheme-icon");
+		// let darkSchemeIcon = document.querySelector("link#dark-scheme-icon");
 
-		function onUpdate() {
-			if (matcher.matches) {
-				lightSchemeIcon.remove();
-				document.head.append(darkSchemeIcon);
-			} else {
-				document.head.append(lightSchemeIcon);
-				darkSchemeIcon.remove();
-			}
-		}
+		// function onUpdate() {
+		// 	if (matcher.matches) {
+		// 		lightSchemeIcon.remove();
+		// 		document.head.append(darkSchemeIcon);
+		// 	} else {
+		// 		document.head.append(lightSchemeIcon);
+		// 		darkSchemeIcon.remove();
+		// 	}
+		// }	
 
 		$("html").addClass("loaded");
 		autoplay = $("#play-music").hasClass("autoplay") ? true : false;
@@ -289,7 +288,7 @@
 	// ------------------------------
 	function initializeHome() {
 		if ($("html").hasClass("one-page-layout")) {
-			$("html").addClass("home-loaded");
+			// $("html").addClass("home-loaded");
 			homeAnimation();
 			homeMusic();
 		}
