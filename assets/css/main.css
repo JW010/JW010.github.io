@@ -681,3 +681,16 @@
 		width: 100%;
 		object-fit: cover;
 }
+
+/* navigation Arrows CSS*/
+
+.navigation-arrows-div {
+	position: relative;
+	display: block;
+	right: 50%;
+	bottom: 50%;
+}
+
+.custom-slider-navigation {
+	z-index: 6 !important;
+}
