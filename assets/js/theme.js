@@ -93,7 +93,8 @@
 		container.load(target + ".html");
 
 		$("html").toggleClass("tt-no-scroll");
-		$("body").toggleClass("tt-ol-menu-open");
+		// $("body").toggleClass("tt-ol-menu-open");
+		$("body").removeClass("tt-ol-menu-open");
 		if ($("body").hasClass("tt-ol-menu-open")) {
 			// Menu step in animations
 			// ========================
