@@ -360,14 +360,14 @@
   .home-marquee {
 	margin: 0 auto; overflow: hidden; white-space: nowrap; box-sizing: border-box; animation: marquee 50s linear infinite; height: 25px; width: 360px; font-size: calc(12px + .14vw); font-weight: 400; position: absolute; top: 106%; color: #fff; text-shadow: 0 0 8px rgba(0, 0, 0, 0.44);
 	}
-  @keyframes marquee {
+  /* @keyframes marquee {
 	0% {
 	  text-indent: 14em;
 	}
 	100% {
 	  text-indent: -105em;
 	}
-  }
+  } */
   
 /* Home Job Title */
 .home-job-title {

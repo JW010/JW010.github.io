@@ -413,7 +413,6 @@
 			.not(".tt-btn-disabled a") // omit from selection
 			.not(".no-transition") // omit from selection
 			.on("click", function (e) {
-				console.log(e.target);
 				// ONE PAGE LAYOUT FUNCTIONS
 				var onePageLayoutTrigger = $(this),
 					container = $("#body-inner");
