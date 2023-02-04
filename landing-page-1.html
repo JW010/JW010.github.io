@@ -435,7 +435,7 @@
 						
 											</p>
 											<p class="anim-fadeinup"> Stay well,
-						   
+						
 											   </p>
 									</div>
 									</div>
@@ -827,24 +827,37 @@
 						============================ 
 						* You can use padding classes if needed. For example "padding-top-xlg-150", "padding-bottom-xlg-150", "no-padding-top", "no-padding-bottom", etc. Note that each situation may be different and each section may need different classes according to your needs. More info about helper classes can be found in the file "helper.css".
 						-->
-						<div
-							class="tt-section bg-white-accent-3"
-						>
-							<div class="tt-section-inner tt-wrap max-width-900">
-								<!-- Begin tt-Heading 
-								====================== 
-								* Use class "tt-heading-xsm", "tt-heading-sm", "tt-heading-lg", "tt-heading-xlg" or "tt-heading-xxlg" to set caption size (no class = default size).
-								* Use class "tt-heading-stroke" to enable stroke style.
-								* Use class "tt-heading-center" to align tt-Heading to center.
-								* Use prepared helper class "max-width-*" to add custom width if needed. Example: "max-width-800". More info about helper classes can be found in the file "helper.css".
+						<div class="tt-section padding-bottom-xlg-150">
+							<div class="tt-section-inner tt-wrap">
+								<!-- Begin page nav 
+								==================== 
+								* Use class "tt-pn-stroke" to enable title stroke style.
+								* Use class "tt-pn-scroll" to enable hover title scroll. Note: If "tt-pn-hover-title" text is wider than "tt-pn-link" then it scrolls by default. The longer the text, the faster it scrolls.
 								-->
-								
+								<div class="tt-page-nav tt-pn-scroll">
+									<a
+									data-target="single-project-1" href="#"
+										
+										class="tt-pn-link anim-fadeinup"
+									>
+										<div class="tt-pn-title">Projects</div>
+										<div class="tt-pn-hover-title">Projects</div>
+									</a>
+									<!-- /.tt-pn-link -->
+
+									<div class="tt-pn-subtitle anim-fadeinup">Selected Works</div>
+
+									<!-- Use if destination page contains page header image -->
+									<div class="tt-pn-image">
+										<img src="assets/img/portfolio/portfolio-1.jpg" alt="image" />
+									</div>
+								</div>
+								<!-- End page nav -->
 							</div>
 							<!-- /.tt-section-inner -->
 						</div>
 						<!-- End tt-section -->
-					</div>
-					<!-- End page content -->
+				
 
 					<!-- ======================
 					///// Begin tt-footer /////
