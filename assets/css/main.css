@@ -634,30 +634,33 @@
 /* small screens */
 @media screen and (max-width: 991px) {
 	.one-page-layout .home-heading {
-		align-self: flex-start;
-		margin-top: 7vh;
-		text-align: left;
-		padding-left: calc(20px + 17vw);
+	  align-self: flex-start;
+	  margin-top: 7vh;
+	  text-align: left;
+	  padding-left: calc(20px + 17vw);
 	}
-}
-html, body {
-	height: 100%;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-  }
-  .one-page-content {
-	position: relative;
-	height: 100%;
+  
+	html, body {
+	  overflow: hidden;
+	}
+	
+	.one-page-content {
+	  position: relative;
+	  height: 100%;
+	}
   }
   
-/* phone landscape */
-@media only screen and (max-device-width: 991px) and (max-device-height: 500px) {
+  /* phone landscape */
+  @media only screen and (max-device-width: 991px) and (max-device-height: 500px) {
 	.home-heading {
-		text-align: center;
+	  text-align: center;
 	}
-
-}
+  
+	html, body {
+	  overflow: auto;
+	}
+  }
+  
 
 /* ONE PAGE CONTENT */
 .one-page-content {
