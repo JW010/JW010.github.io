@@ -640,7 +640,17 @@
 		padding-left: calc(20px + 17vw);
 	}
 }
-
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+  }
+  .one-page-content {
+	position: relative;
+	height: 100%;
+  }
+  
 /* phone landscape */
 @media only screen and (max-device-width: 991px) and (max-device-height: 500px) {
 	.home-heading {
