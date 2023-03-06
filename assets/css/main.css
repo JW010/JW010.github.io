@@ -414,7 +414,12 @@
 .full-screen-wrap  .bottom-right, .full-screen-wrap .bottom-right-horiz {
 	bottom: 0; right: 0;
   	}
-
+	  @media (max-width: 767px) {
+		.full-screen-wrap {
+		  display: none;
+		}
+	  }
+	  
 /* HOME SOCIAL */
 .home-social {
 	position: fixed; z-index: 99999; bottom: 0px; left: 0; margin: 0; overflow: hidden; display: flex; overflow: hidden; display: flex; transition: transform 2.2s cubic-bezier(0.23, 1, 0.32, 1);
