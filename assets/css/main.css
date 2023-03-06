@@ -501,7 +501,11 @@
 .bg-music-confirm a {
 	display: inline-block; margin: 0 1em; cursor: pointer; color: inherit; font-size: 200%; font-weight: 300;
 	}
-
+	@media (max-width: 767px) {
+		.play-music {
+		display: none;
+		}
+		}
 
 /* Back to top */
 #back-to-top {
