@@ -725,5 +725,6 @@
 @media only screen and (max-width: 600px) {
 	.tt-portfolio-slider-navigation {
 		max-width: 45%;
+		bottom: 10%;
 	}
 }
