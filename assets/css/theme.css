@@ -4850,11 +4850,6 @@ video.pi-item-video {
 .tt-portfolio-slider .swiper {
 	height: 100vh;
 }
-@media (max-width: 1024px) {
-	.tt-portfolio-slider .swiper {
-		height: calc(100vh - 50px);
-	}
-}
 
 /* Portfolio slider slide */
 .tt-portfolio-slider .swiper-slide {
