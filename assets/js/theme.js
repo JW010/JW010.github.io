@@ -1514,7 +1514,7 @@
 					mousewheel: $dataMousewheel,
 					keyboard: $dataKeyboard,
 					simulateTouch: $dataSimulateTouch,
-					grabCursor: $dataGrabCursor,
+					// grabCursor: $dataGrabCursor,
 					loop: true, // Not recommended!
 
 					breakpoints: {
