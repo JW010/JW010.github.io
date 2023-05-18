@@ -165,17 +165,17 @@ Author:     Janay Winston
 
 						<div class="tt-header-col">
 							<!-- Begin overlay menu toggle button -->
-							<div id="tt-ol-menu-toggle-btn-wrap">
-								<div class="tt-ol-menu-toggle-btn-text">
-									<span class="text-menu" data-hover="Open">Menu</span>
-									<span class="text-close">Close</span>
-								</div>
-								<div class="tt-ol-menu-toggle-btn-holder">
-									<a href="#" class="tt-ol-menu-toggle-btn magnetic-item"
-										><span></span
-									></a>
-								</div>
+								<!-- Begin mobile menu toggle button (for "tt-main-menu") -->
+						<div id="tt-m-menu-toggle-btn-wrap">
+							<div class="tt-m-menu-toggle-btn-text">
+								<span class="tt-m-menu-text-menu">Menu</span>
+								<span class="tt-m-menu-text-close">Close</span>
 							</div>
+							<div class="tt-m-menu-toggle-btn-holder">
+								<a href="#" class="tt-m-menu-toggle-btn magnetic-item"><span></span></a>
+							</div>
+						</div>
+						<!-- End mobile menu toggle button -->
 							<!-- End overlay menu toggle button -->
 
 							<!-- Begin overlay menu 
@@ -183,16 +183,22 @@ Author:     Janay Winston
 							* Use class "tt-ol-menu-center" to align menu to center.
 							* Use class "tt-ol-menu-count" to enable menu counter.
 							-->
-							<nav class="tt-overlay-menu tt-ol-menu-center">
-								<div class="tt-ol-menu-holder">
-									<div class="tt-ol-menu-inner tt-wrap">
-										<div class="tt-ol-menu-content home-menu">
-											<!-- Begin menu list -->
-											<ul class="tt-ol-menu-list">
-												<li class="tt-ol-submenu-wrap">
-													<div class="tt-ol-submenu-trigger">
+							<nav class="tt-main-menu tt-submenu-dark tt-m-menu-center">
+								<div class="tt-main-menu-holder">
+									<div class="tt-main-menu-inner">
+										<div class="tt-main-menu-content">
+
+											<!-- Begin main menu list -->
+											<ul class="tt-main-menu-list">
+
+												<!-- <li><a href="">Single Link</a></li> -->
+
+												<!-- Begin submenu (submenu master)
+												==================================== -->
+												<li class="tt-submenu-wrap tt-submenu-master">
+													<div class="tt-submenu-trigger">
 														<a href="#" data-target="single-project-1" class="sub-menu-link">Projects</a>
-														<div class="tt-ol-submenu-caret-wrap">
+														<div class="tt-submenu">
 															<div
 																class="tt-ol-submenu-caret magnetic-item"
 															></div>
@@ -200,28 +206,28 @@ Author:     Janay Winston
 														<!-- /.tt-ol-submenu-caret-wrap -->
 													</div>
 													<!-- /.tt-ol-submenu-trigger -->
-													<div class="tt-ol-submenu">
-														<ul class="tt-ol-submenu-list">
+													<div class="tt-submenu">
+														<ul class="tt-submenu-list">
 															<!-- Begin submenu
 															=================== -->
-															<li class="tt-ol-submenu-wrap">
-																<div class="tt-ol-submenu-trigger">
+															<li class="tt-submenu-wrap">
+																<div class="tt-submenu-trigger">
 																	<a
 																		href="#"
-																		class="tt-ol-submenu-link sub-menu-link"
+																		class="tt-submenu-link sub-menu-link"
 																		data-target="single-project-1"
 																		>Fils Unique</a
 																	>
-																	<div class="tt-ol-submenu-caret-wrap">
+																	<div class="tt-submenu-caret-wrap">
 																		<div
-																			class="tt-ol-submenu-caret magnetic-item"
+																			class="tt-submenu-caret magnetic-item"
 																		></div>
 																	</div>
 																	<!-- /.tt-ol-submenu-caret-wrap -->
 																</div>
 																<!-- /.tt-ol-submenu-trigger -->
-																<div class="tt-ol-submenu">
-																	<ul class="tt-ol-submenu-list">
+																<div class="tt-submenu">
+																	<ul class="tt-submenu-list">
 																		<li>
 																			<a data-target="single-project-1" href="#"
 																				>Strategy</a
@@ -254,7 +260,6 @@ Author:     Janay Winston
 																>
 															</li>
 															
-														
 															
 															<li>
 																<a data-target="single-project-8" href="#"
@@ -284,7 +289,7 @@ Author:     Janay Winston
 												
 												<li>
 													<a href="#" data-target="other-project-2"
-													>Other Works</a
+														>Other Works</a
 													>
 												</li>
 											</ul>
@@ -297,7 +302,7 @@ Author:     Janay Winston
 								<!-- /.tt-ol-menu-holder -->
 
 								<!-- Begin noise background -->
-								<div class="bg-noise"></div>
+							
 								<!-- End noise background -->
 							</nav>
 							<!-- End overlay menu -->
@@ -348,7 +353,7 @@ Author:     Janay Winston
 								<h1 class="ph-caption-title ph-appear">404</h1>
 								<div class="ph-caption-title-ghost ph-appear">404</div>
 								<div class="ph-caption-subtitle ph-appear">
-									Oops! We couldn't find that page.
+									Uh-Oh Spaghetti O's! We couldn't find that page.
 								</div>
 							</div>
 							<!-- End page header caption -->
